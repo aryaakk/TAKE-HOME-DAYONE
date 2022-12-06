@@ -1,0 +1,79 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #B5E48C;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #B5E48C;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.wrapper .todo-wrapper {
+    padding: 20px;
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #52B69A;
+}
+
+.wrapper .todo-wrapper .header{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0e293e;
+    font-weight: bold;
+}
+
+.todo-wrapper .inp{
+    width: 100%;
+}
+
+.todo-wrapper .inp form{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.todo-wrapper .inp form input.text{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 30px;
+    outline: none;
+    border: none;
+}
+
+.todo-wrapper .inp form input.text:focus{
+    background-color: #96e2cd;
+}
+
+.wrapper .hasil {
+    width: 50%;
+    margin: 20px 0 0 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.wrapper .hasil .list{
+    background-color: #168AAD;
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
